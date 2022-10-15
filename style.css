@@ -1,0 +1,81 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard",serif;
+}
+
+body {
+    background-color: #0A0B0B;
+}
+.profile{
+
+    width:200px;
+    height:200px;
+    background-color:white;
+
+    border-radius: 100%;
+    border:2px solid aqua;
+
+    background-image: url("https://us.123rf.com/450wm/robuart/robuart1901/robuart190102030/115456466-%EA%B2%80%EC%9D%80-%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%8B%A4%EB%A3%A8%EC%97%A3-%EB%B2%A1%ED%84%B0-%EA%B3%A0%EC%96%91%EC%9D%B4-%EB%8F%99%EB%AC%BC-%EC%95%84%EC%9D%B4%EC%BD%98.jpg?ver=6");
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    color: white;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.wrap{
+    width: 500px;
+    height: 500px;
+    margin: 30px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.port_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.port_link > a {
+
+    width:300px;
+    height:50px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: blueviolet;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    box-shadow: 3px 3px 5px 0px lightslategray;
+}
+.port_link > a:hover{
+    background-color:#f2f2f2;
+    font-size:18px;
+    color: violet;
+}
